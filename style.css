@@ -1,78 +1,66 @@
+/* Style général */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f4f4f4;
-  color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Navigation */
 header {
-  background: #004aad;
-  color: white;
-  text-align: center;
-  padding: 25px;
+    background: #2c3e50;
+    padding: 15px 0;
 }
 
 nav {
-  background: #222;
-  padding: 15px;
-  text-align: center;
+    text-align: center;
 }
+
 nav a {
-  color: white;
-  margin: 0 20px;
-  text-decoration: none;
-  font-weight: bold;
-}
-nav a:hover { color: #00aaff; }
-
-main {
-  display: flex;
-  width: 90%;
-  margin: 20px auto;
-  gap: 20px;
-}
-section { flex: 70%; }
-aside {
-  flex: 30%;
-  background: #ddd;
-  padding: 20px;
-  border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
 }
 
-article {
-  background: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-article img { width: 100%; border-radius: 5px; margin: 10px 0; }
-
-.formulaire {
-  background: white;
-  padding: 20px;
-  width: 90%;
-  margin: 20px auto;
-  border-radius: 8px;
-}
-form input[type="email"] {
-  width: 95%;
-  padding: 10px;
-  margin: 10px 0;
-}
-form button {
-  background: #004aad;
-  color: white;
-  padding: 12px 25px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+nav a:hover {
+    text-decoration: underline;
 }
 
+/* Titres */
+h1, h2 {
+    color: #2c3e50;
+}
+
+/* Bouton */
+.btn {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
+
+/* Footer */
 footer {
-  background: #222;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 20px;
 }
