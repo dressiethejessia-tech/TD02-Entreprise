@@ -1,29 +1,82 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - Mon Entreprise</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>TD01 - Actualités sur l'Émancipation</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav aria-label="Navigation principale">
-            <a href="index.html">Accueil</a>
-            <a href="about.html">À propos</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
 
-    <main class="container">
-        <h1>Bienvenue sur notre site</h1>
-        <p>Ceci est la page d'accueil de Mon Entreprise. Nous proposons des solutions web innovantes pour booster votre business.</p>
-        <a href="services.html" class="btn">Découvrir nos services</a>
-    </main>
+<header>
+  <h1>Émancipation Magazine</h1>
+  <p>Informer pour libérer les esprits</p>
+</header>
 
-    <footer>
-        <p>&copy; 2026 Mon Entreprise. Tous droits réservés.</p>
-    </footer>
+<!-- FONCTIONNALITE 1 : NAVIGATION 5pts -->
+<nav aria-label="Menu principal">
+  <a href="index.html">Accueil</a>
+  <a href="#">Éducation</a>
+  <a href="#">Société</a>
+  <a href="#">Économie</a>
+</nav>
+
+<main>
+  <section>
+    <h2>Dernières Actualités</h2>
+
+    <!-- FONCTIONNALITE 2 : 3 ARTICLES 5pts -->
+    <article>
+      <h2>L'éducation, moteur de l'émancipation des jeunes</h2>
+      <p><em>Publié le 16 Juillet 2026</em></p>
+      <img src="https://via.placeholder.com/600x300/004aad/ffffff?text=Education" alt="Jeunes en classe">
+      <p>Résumé : L'accès à une éducation de qualité permet aux jeunes de développer leur esprit critique et de devenir acteurs de leur propre avenir.</p>
+      <a href="#">Lire la suite →</a>
+    </article>
+
+    <article>
+      <h2>L'émancipation économique des femmes au Gabon</h2>
+      <p><em>Publié le 15 Juillet 2026</em></p>
+      <img src="https://via.placeholder.com/600x300/28a745/ffffff?text=Entrepreneuriat" alt="Femmes entrepreneures">
+      <p>Résumé : De nombreuses femmes se lancent dans l'entrepreneuriat. L'indépendance financière est vue comme le premier pas vers une véritable émancipation.</p>
+      <a href="#">Lire la suite →</a>
+    </article>
+
+    <article>
+      <h2>Le numérique : un levier d'émancipation sociale</h2>
+      <p><em>Publié le 14 Juillet 2026</em></p>
+      <img src="https://via.placeholder.com/600x300/ff6f00/ffffff?text=Numerique" alt="Ordinateur et internet">
+      <p>Résumé : Internet et les formations en ligne offrent à tous la possibilité d'apprendre, de créer et de s'exprimer.</p>
+      <a href="#">Lire la suite →</a>
+    </article>
+
+  </section>
+
+  <aside>
+    <h3>À propos</h3>
+    <p>Site créé pour le TD01 : Structure d'une page d'actualités.</p>
+    <p><b>Thème :</b> L'émancipation</p>
+  </aside>
+</main>
+
+<!-- FONCTIONNALITE 3 : FORMULAIRE 5pts -->
+<section class="formulaire">
+  <h2>Abonnez-vous à la newsletter</h2>
+  <form>
+    <label for="email">Votre Email :</label>
+    <input type="email" id="email" placeholder="votre.email@exemple.com" required>
+    
+    <label>
+      <input type="checkbox" required> 
+      J'accepte de recevoir les actualités
+    </label>
+    
+    <button type="submit">S'abonner</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 - TD01 - Université Numérique du Gabon</p>
+</footer>
+
 </body>
 </html>
