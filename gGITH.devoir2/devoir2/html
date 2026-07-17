@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil - Émancipation Magazine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Émancipation Magazine</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="actualites.html">Actualités</a>
+            <a href="emancipation.html">Émancipation</a>
+            <a href="filieres.html">Filières</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Bienvenue</h2>
+        <p>Ceci est la page d'accueil de ton devoir 2.</p>
+    </main>
+
+    <footer>
+        <p>© 2025 Émancipation Magazine</p>
+    </footer>
+</body>
+</html>
